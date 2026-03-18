@@ -3,7 +3,10 @@ name = "03-real-time-recog"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
     "ipykernel>=7.2.0",
+    "mediapipe>=0.10.0",
+    "numpy>=2.4.3",
+    "opencv-python>=4.8.0",
 ]
